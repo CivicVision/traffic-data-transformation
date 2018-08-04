@@ -1,0 +1,13 @@
+service: traffic-data-parser
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  profile: prototypefund
+  timeout: 300
+
+functions:
+  hourData:
+    handler: handler.hourData
+  injured_accidents:
+    handler: handler.injuredPerAccidents
