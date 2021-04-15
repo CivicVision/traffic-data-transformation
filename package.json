@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "aws-sdk": "^2.279.1",
+    "aws-sdk": "^2.887.0",
     "d3": "^5.5.0",
     "jest": "^23.4.1",
     "jest-message-util": "^23.4.0",
